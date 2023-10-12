@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(45,121,9,1) 35%, rgba(13,193,230,1) 100%);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(139, 192, 23);
+    position: relative;
+} 
+#box #hour{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 70, 70);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#box #min{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(197, 88, 88);
+    position: absolute;
+   top: 40%;
+   left: 40%;
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
+#box #sec{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(70, 156, 109);
+    position: absolute;
+    top: 40%;
+    left: 70%;
+text-align: center;
+font-size: 5rem;
+color: white;
+}
